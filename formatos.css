@@ -1,0 +1,66 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilização do menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a.active {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+/* Logotipo */
+.logotipo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas do Tio Lucas</title>
+
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilo para remover o fundo verde dos links de navegação -->
+    <style>
+        body {
+            background-color: #e9967a; /* Cor de fundo */
+        }
+        .logo-titulo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-titulo img {
+            margin-right: 10px; /* Espaço entre a logo e o texto */
+        }
+        .logo-titulo h1 {
+            font-weight: bold;
+            margin: 0;
+        }
+        main {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .welcome-text {
+            font-weight: bold; /* Deixa o texto em negrito */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .navbar-dark {
+            background-color: #333;
+        }
+
+        /* Estilo para remover o fundo verde dos links de navegação */
+        .navbar-nav .nav-link {
+            background-color: transparent; /* Remove o fundo verde */
+            color: #fff; /* Define a cor do texto */
+        }
+
+        .navbar-nav .nav-link.active {
+            background-color: transparent; /* Fundo transparente para o link ativo */
+            color: #fff; /* Cor do texto para o link ativo */
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #444; /* Cor de fundo ao passar o mouse */
+            color: #fff; /* Cor do texto ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="receitas.html">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Área principal com título, logotipo e mensagem -->
+    <main>
+        <div class="logo-titulo">
+            <img src="img.png.png" alt="Logo" width="100" height="100">
+            <h1>Receitas do Tio Lucas</h1>
+        </div>
+        <p class="welcome-text">
+            Bem-vindo(a) ao site do Tio Lucas.<br>
+            Conheça deliciosas receitas para o dia a dia.
+        </p>
+    </main>
+
+    <!-- Rodapé com copyright -->
+    <footer>
+        &copy; Lucas 2024
+    </footer>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
